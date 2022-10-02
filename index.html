@@ -11,35 +11,59 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <li>Enter your HTML notes here</li>
-          <li>The head element contains information about the webpage.</li>
-          <li>The body element represents the visible content shown to the user.</li>
+            <li>The head element contains information or metatdata helping the browser render the webpage.
+               <ul>
+                 <li>These elements are not visible to a user.</li>
+               </ul>
+            </li>
+            <li>The body element represents the visible content shown to the user.</li>
+            <li>"ul" starts a list in bullet point format
+              <ul>
+                <li>followed by "li" (list items) preceded with a solid dot called the list item marker</li>
+                <li>List item markers can be changed using CSS</li>
+              </ul>
+              <li>"ol" is similar to "ul" except it creates a list in numbered format.</li>
+                <ul>
+                  <li>followed by "li" list items.</li>
+                  <li>ordered lists have unique attributes availible such as start and reverse, by default ol's starts at 1</li>
+                </ul>
+              <li>"li" elements have to be a direct child to either the "ul" or "ol" parent element.</li>
+            <li>A section tag with an "h2" was used to created the separate HTML, CSS, Git, and JavaScript sections.</li>
         </ul>
       </section>
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
           <li>A margin indicates how much space we want around the outside of an element.</li>
           <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>You must link your styles.css file to the index.html file for the changes to work</li>
+          <li>Use an external CSS Style Sheet and follow the CSS box model.</li>
         </ul>
       </section>
       <section class="card" id="git-section">
         <h2>Git</h2>
-        <ul>
+        <ol>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-        </ul>
+          <li>git add -A: once you've edited and saved a file to stage the changes.</li>
+          <li>git commit -m "changes described": changes are added and commited locally</li>
+          <li>git pull origin main: pulls in the base branch (main) to your feature branch</li>
+          <li>git push arigin feature/add-file: pushes your changes to the remote repository. Always push to your feature branch instead of main to keep bugs out.</li>
+        </ol>
       </section>
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>Variable: (var) container used to store data in your code.</li>
+          <li>Comment out lines of code with quick key (command) (/). This keeps the code but doesn't execute it.</li>
+          <li>JS changes can be seen by right clicking on a webpage and selecting "Inspect" - used for debugging and testing code.</li>
+          <li>You must link the .js file to the index.html file for the changes to work.</li>
         </ul>
       </section>
     </main>
@@ -47,5 +71,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>

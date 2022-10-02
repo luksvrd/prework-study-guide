@@ -4,8 +4,8 @@
 
 - Motivated by the desire to learn full stack web development and have a basic understanding of creating a webpage before the first day of coding bootcamp on October 3rd 2022.
 - Built this project to implement newly learned skills, used this as a template to play around with code and see how changes I made affected the webpage.
-- This application propably doesn't solve any users issues but it helped me solve a lack of understanding about web development basics, the workflow, and different file types that are created together to form a fuctioning webpage.
-- Scratched the surface on Git, HTML, CSS, JavaScript, and Github. Biggest take away I had was git flow and github workflow, and the structure of a project.
+- This application propably doesn't solve any users issues but it helped me solve a lack of understanding about web development basics, the workflow, and different file types that are created together to form a functioning webpage.
+- Scratched the surface on Git, HTML, CSS, JavaScript, and Github. Biggest take away I had was git flow, github workflow, and the structure of a project.
 
 ## Installation
 
